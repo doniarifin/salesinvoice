@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('salesorder.index');
+    return view('home');
 });
 
 Auth::routes();
